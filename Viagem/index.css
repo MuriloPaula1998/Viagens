@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.top-imagem {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    color: #444;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.apresentacao {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+    color: #ff6f61;
+}
+
+.pacotes {
+    padding: 2rem;
+    background-color: #ffd700;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.pacote {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 0 10px;
+}
+
+.pacote img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.preco-antigo {
+    color: #0073e6;
+    font-size: 1.2rem;
+}
+
+.preco-novo {
+    color: #e74c3c;
+    font-size: 1.5rem;
+}
+
+.saiba-mais {
+    position: relative;
+    display: inline-block;
+    background: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.saiba-mais:hover {
+    letter-spacing: 0.2rem;
+    padding: 1.1rem 3.1rem;
+    background: #ff6347;
+    color: #fff;
+    animation: box 3s infinite;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #444;
+    color: #fff;
+}
